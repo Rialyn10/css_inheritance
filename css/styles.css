@@ -4,18 +4,17 @@
     font-family: 'PT Serif', serif;
 */
 
+.container {
+  width: 90%;
+  max-width: 39rem;
+  margin: 0 auto;
+}
 body{
   margin: 100px;
   padding:  50px;
   color: #414141;
 
 }
-.container {
-  margin: 0 auto;
-  width: 90%;
-  max-width: 39rem; 
-}
-
 h1{
   text-align: center;
   font-family: Cinzel, serif;
@@ -25,22 +24,25 @@ h1{
 
 }
 .subtitle{
-  margin-top: 0 auto;
-  margin-bottom: 100px;
-  margin-left: 50px;
-  margin-right: 50px;
   text-align: center;
   font-family: PT Serif;
   color: #7D7D7D;
   font-size: 36px;
   line-height:  2.25rem;  
- 
+  margin-top: 0 auto;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 
 }
 article{
   line-height: 1.6rem;
 }
-
+.container {
+  width: 90%;
+  max-width: 39rem;
+  margin: 0 auto;
+}
 .lead{
   font-size: 21px;
   line-height: 1.3;
